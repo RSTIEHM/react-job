@@ -28,7 +28,10 @@ const Login = () => {
         </button>
         <p className="text-center">
           Not a member?{" "}
-          <Link to="/" className="ml-2 link link-hover link-primary capitalize">
+          <Link
+            to="/register"
+            className="ml-2 link link-hover link-primary capitalize"
+          >
             Register
           </Link>
         </p>

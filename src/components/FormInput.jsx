@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const FormInput = ({ label, name, type, defaultValue }) => {
   return (
     <div className="form-control ">
